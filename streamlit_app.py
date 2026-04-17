@@ -3,8 +3,8 @@ import joblib
 import streamlit as st
 from preprocess import clean_text
 
-MODEL_PATH = "models/best_model.pkl"
-MODEL_NAME_PATH = "models/best_model_name.txt"
+MODEL_PATH = "best_model.pkl"
+MODEL_NAME_PATH = "best_model_name.txt"
 
 st.set_page_config(page_title="Fake Job Detection", page_icon="🔎", layout="centered")
 
